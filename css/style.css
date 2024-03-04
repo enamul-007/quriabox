@@ -357,6 +357,10 @@ img {
 
 
 /* ----------Client__part  start---------- */
+#Testimonial__section{
+    background: var(--main-bg-color);
+    padding: ;
+}
 
 .TESTIMONIAL{
     position: relative;
@@ -387,6 +391,49 @@ img {
     font-weight: 800;
     width: 410px;
 }
+
+/* -----slider part------ */
+.slider__main{
+    padding: 85px 0 268px;
+}
+.slider__part{
+    width:872px ;
+    border-radius: 16px;
+    background-color: var(--praimeri-text-color);
+    padding: 41px 16px 32px 51px;
+    margin: 0 auto;
+
+}
+
+.slider__title{
+    font-family: var(--Raleway);
+    color: var(--oreng-color);
+    font-weight: 700;
+    font-size: 25px;
+}
+
+.slider__summry{
+    font-family: var(--Raleway);
+    color: var(--footr-top_color);
+    font-weight: 400;
+    font-size: 16px;
+}
+.Avatar{
+    position: relative;
+}
+
+.Avatar ::after{
+    position: absolute;
+    content: url(../images/Avatar.png);
+    top: 0;
+    right: 0;
+    width: 75px;
+    padding-bottom: 172px;
+
+}
+
+
+/* -----slider part------ */
 
 
 /* -------------Client__part  end----------- */
